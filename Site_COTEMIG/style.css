@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+*{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}    
+
+
+header{
+    background-color: black;    
+    color: gainsboro;
+    height: 5vh;
+    font-size: 120%;
+    vertical-align: middle;
+    justify-content: center;
+    position: relative;
+    
+}
+
+figure{
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+#menu{
+    
+    background: rgba(0, 0, 0, 0.75);    
+    height: 3.5em;
+    display: inline-block;
+    display: block;
+    position: sticky;
+}
+
+
+#menu span { display: inline-block;margin-left: 5%;}
+
+    
+#menu span a {  color: white}
+    
+
+#menu
+{
+    padding-left: 190px;
+    vertical-align: middle;
+    font-family: sans-serif;
+}    
+
+.banner{
+
+    background-image: url(baner.png);
+    height:56vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.faculdade{
+    
+    position: absolute;
+    top: 200px;
+    left:350px;
+    color: aliceblue;
+    font-size: 38px; 
+    text-align: center;
+    font-family: sans-serif;
+
+}    
+
+.banner__Pai{
+    width: 25;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    font-weight: 600;
+    color: azure;
+}
+
+.banner__titulo{
+    font-weight: 900;
+    font-size: 2.375em;
+}
+
+.banner__inove{
+    padding: 15px 10px 15px 0px;
+    font-size: 1.125em;
+}
+
+.banner__buttom{
+    position: relative;
+    top: 3vh;
+    color: azure;
+    background-color: green;
+    padding: 3% 30% 3% 30%;
+    border-radius: 8px;
+}
+
+#home{
+    margin-top:0; 
+}   
+
+ #Carro{
+
+    margin-left: 60%;
+    line-height: 5vh;
+ }
+
+#logo
+{
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 200px;
+    vertical-align: middle;
+    margin-right: 40px;
+}    
+
+.Banner__Pai2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner__titulo{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner__texto{
+    font-size: 1.1250em;
+}
+
+.cards__img1{
+    position: relative;
+    top: -3.5vh;
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.8)),url(jogando.jpg);
+    width: 300px;
+    height: 175px;
+    padding: 0px, 5px, 0px, 5px ;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 15px 15px 0px 0px;
+    vertical-align: bottom ;
+    position: relative;
+
+}
+
+.Cards__img__texto{
+    position: relative;
+    top: 75%;
+    font-weight: 900;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.cards__img2{
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.8)),url(inove.jpg);
+    width: 300px;
+    height: 175px;
+    padding: 0px, 5px, 0px, 5px ;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 1%;
+    
+}
+
+#Cards__img__texto1{
+    position: relative;
+    top: 75%;
+    right: 3vw;
+    font-weight: 900;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.Cards{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-top: 40px ;
+}
+
+#grande{
+    position: relative;
+    height: 500vh;
+    width: 100%;
+    background-color: blue;
+}
+
+#Container1{
+    position: relative; 
+    top: 14.5vh;  
+    height: 65%; 
+    width: 100%;
+    
+}
+
+.minicards{
+    margin-top: 1vh;
+    height: 5.5vh; 
+    width: 100%; 
+    display: flex;
+    line-height: 5vh;
+    justify-content: space-between;
+}
+
+#Banner__Pai3{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+
+#T1{
+    font-size: 1.125em;
+    text-align: center;
+
+}
+
+#T2{
+    font-size: 1.125em;
+    text-align: center;
+    
+    
+}
+
+.Titulo__2{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.div__titulo{
+    top: 0;
+    left: 0;
+    position: relative;
+    height: 80vh; 
+    width: 100%; 
+}
+
+.piupiu{
+    border-radius: 10px 10px 0px 0px;;
+    margin-top: 5%;
+}
+
+
+#Colegio{
+position: absolute;
+left: 449px;
+top: 320px;
+}
+
+
+#garrafa_1{
+   position: absolute;
+   left: 400px;
+   top: 100px ;
+}
+
+#uva_2{
+    position: absolute;
+    left: 800px;
+    top: 100px ;  
+}
+
+#banana_3{
+    position: absolute;
+    left: 1200px;
+    top: 100px ;   
+
+}
+
+#belo{
+    position: absolute;
+    left: 455px;
+    top: 480px ;    
+}
+
+#Santa{
+    position: absolute;
+    left: 455px;
+    right: 50px;
+    top: 350px;
+}
+
+#caixa{
+position: absolute;
+left: 850px;
+top: 410px;
+}
+
+#rua{
+    position: absolute;
+    left: 850px;
+    top: 440px;
+}
+
+#horizonte{
+    position: absolute;
+    left: 850px;
+    top: 477px;
+}
+
+#escritorio-central{
+    position: absolute;
+    left: 1300px;
+    top: 410px;
+    font-size: 20px;
+}
+
+#grajau{
+    position: absolute;
+    left: 1300px;
+    top: 440px;
+}
+
+#cep{
+    position: absolute;
+    left: 1300px;
+    top: 475px;
+}
+
+
+#location{
+    position: absolute;
+    left: 1250px;
+    top: 435px;
+}
+
+#urban{
+    position: absolute;
+    left: 400px;
+    top: 435px;
+}
+
+#malmal{
+    position: absolute;
+    left: 800px;
+    top: 435px; 
+}
+
+#central{
+
+    position: absolute;
+    top:550px;
+    right: 850px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#norma{ 
+    position: absolute;
+    top:600px;
+    text-align: center;
+    right: 850px;
+    font-size: 32px;
+    font-weight: 900;
+    color: forestgreen;
+}
+
+#telefone{
+   width: 3em;
+   height: 3em;
+   position: absolute;
+   top:600px;
+   text-align: center;
+   right: 1079px;
+}
+
+#novidades{
+    font-size: 40px;
+    position: absolute;
+    top:680px;
+    text-align: center;
+    right: 768px;
+}
+
+#container__4{
+  position: relative;
+ 
+}
+
+.img{
+    width: 278px ;
+}
+
+#reuniao{
+    position: absolute;
+    left: 360px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#palestrador{
+    position: absolute;
+    left: 660px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#group{
+    position: absolute;
+    left: 960px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#valley{
+    position: absolute;
+    left: 1260px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#CELEBRA{
+    position: absolute;
+    top: 176px;
+    left: 380px;
+    color: aliceblue;
+}
+
+#PARCERIA{
+    position: absolute;
+    top: 197px;
+    left: 380px;
+    color: aliceblue;
+}
+
+#FDC{
+    position: absolute;
+    top: 218px;
+    left: 380px;
+    color: aliceblue;
+}
+
+#INSPIRADORAS{
+    position: absolute;
+    top: 239px;
+    left: 380px;
+    color: aliceblue;
+}
+
+#Maio{
+    position: absolute;
+    top: 259px;
+    left: 380px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#SUCESSO{
+    position: absolute;
+    top: 176px;
+    left: 680px;
+    color: aliceblue;
+}
+
+#PROTEÇÃO{
+    position: absolute;
+    top: 197px;
+    left: 680px;
+    color: aliceblue;
+}
+
+#DADOS{
+    position: absolute;
+    top: 218px;
+    left: 680px;
+    color: aliceblue;
+}
+
+#EMPRESAS{
+    position: absolute;
+    top: 239px;
+    left: 680px;
+    color: aliceblue;
+}
+
+#Em{
+    position: absolute;
+    top: 259px;
+    left: 980px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#SINEPE{
+    position: absolute;
+    top: 176px;
+    left: 980px;
+    color: aliceblue;
+}
+
+#DEMANDAS{
+    position: absolute;
+    top: 197px;
+    left: 980px;
+    color: aliceblue;
+}
+
+#COM{
+    position: absolute;
+    top: 218px;
+    left: 980px;
+    color: aliceblue;
+}
+
+#FUTURAS{
+    position: absolute;
+    top: 239px;
+    left: 980px;
+    color: aliceblue;
+}
+
+#Abril{
+    position: absolute;
+    top: 259px;
+    left: 980px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#RAJA{
+    position: absolute;
+    top: 197px;
+    left: 1300px;
+    color: aliceblue;
+}
+
+#VISITA{
+    position: absolute;
+    top: 218px;
+    left:  1300px;
+    color: aliceblue;
+}
+
+#NOVOS{
+    position: absolute;
+    top: 239px;
+    left:  1300px;
+    color: aliceblue;
+}
+
+#de{
+    position: absolute;
+    top: 259px;
+    left:  1300px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.meu-div {
+        background-color: black;
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(31, 30, 30);
+        margin-top: 35vh;
+}
+
+.img{
+    background-color: aliceblue;
+}
+
+#nos{
+    color: aliceblue;
+    position: relative;
+    top: 50px;
+    left: 420px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+#quem{
+    position: relative;
+    top: 80px;
+    left: 420px;
+    color: aliceblue;
+}
+
+#uni{
+    position: relative;
+    top: 90px;
+    left: 420px;
+    color: aliceblue;
+   
+}
+
+#Ouvidoria{
+    position: relative;
+    top: 100px;
+    left: 420px;
+    color: aliceblue;
+}
+
+#blogin{
+    position: relative;
+    top: 110px;
+    left: 420px;
+    color: aliceblue;
+}
+
+#curso{
+    color: aliceblue;
+    position: relative;
+    top: -40px;
+    left: 800px;
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+#medio{
+    color: aliceblue;
+    position: relative;
+    top: -20px;
+    left: 800px;
+    
+}
+
+#gradu{
+    color: aliceblue;
+    position: relative;
+    top: -10px;
+    left: 800px;
+   
+}
+
+.caca{
+    position: relative;
+    top: -111px;
+    left: 1220px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#raio{
+   
+}
+
+
+
+
+
